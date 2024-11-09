@@ -1,5 +1,6 @@
 /// @description player's actions
-//testeasas
+
+
 //variaveis de input
 right = keyboard_check(ord("D"));
 left = keyboard_check(ord("A"));
