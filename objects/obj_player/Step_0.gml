@@ -1,5 +1,5 @@
 /// @description player's actions
-
+//teste
 //variaveis de input
 right = keyboard_check(ord("D"));
 left = keyboard_check(ord("A"));
@@ -10,6 +10,7 @@ var chao = place_meeting(x, y+1, obj_wall);
 //variaveis relacionadas a movimentação
 var move = right - left;
 hspd = spd * move;
+
 vspd += grv;
 
 #region MOVE/PULO
